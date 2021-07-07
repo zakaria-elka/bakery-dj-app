@@ -1,0 +1,137 @@
+
+
+body {
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background: linear-gradient(#243b55,#141e30,#243b55);
+}
+
+.product
+{
+width: 1200px;
+margin-left: 40px;
+margin-top: 5%;
+
+}
+  .strike-text {
+    color: red;
+    text-decoration: line-through
+}
+
+
+
+.card {
+    flex-direction: row;
+    
+  }
+
+  .card img {
+    width: 20%;
+  }
+
+h5{
+
+   color: chocolate; 
+   font-size: xx-large;
+   margin-top: 10px;
+
+}
+  
+h6{
+
+margin-top: 30px;
+font-size: 20px;
+color:brown;
+
+
+}
+
+
+ul {
+    position: fixed;
+    list-style-type: none;
+    right:0;
+    top:45px;
+    margin: 0;
+    padding: 0;
+    width: 350px;
+    height: 100%;
+    background-color: #f1f1f1;
+  }
+  
+  li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+  
+  li a.active {
+    background-color: #04AA6D;
+    color: white;
+  }
+  
+  li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  }
+
+  .priceprod{
+
+    color:brown;
+    text-decoration: none; 
+    pointer-events: none;
+
+
+  }
+
+
+  .jumbotron{
+
+  position: fixed;
+  top:5%;
+  left:10%;
+  right: 10%;
+  background-color:rgb(255, 255, 255);
+  padding: 2%;
+  height: 90%;
+  box-shadow: 10px 10px 5px grey;
+
+  }
+
+  .jumbotron form{
+
+   width: 35%;
+   margin-left: 50px;
+   padding: 20px;
+   border-radius: 10px;
+
+  }
+
+  .jumbotron form textarea{
+
+    position: fixed;
+    top:20%;
+    left:50%;
+    right: 65%;
+    width: 35%;
+    height: 70%;
+    border-radius: 15px 0px 15px 0px;
+    resize: none;
+    pointer-events: none;
+    font: italic small-caps bold 16px/2 cursive;
+    
+
+  }
+
+  .vl {
+    border-left: 2px solid black;
+    height: 70%;
+    position: fixed;
+    top:20%;
+    left:46%;
+    height: 70%;
+  }
+
+ 
